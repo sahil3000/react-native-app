@@ -5,10 +5,11 @@ import InputForm from './components/InputForm';
 import UsingFlatList from './components/listing/UsingFlatList';
 import CustomListing from './components/listing/CustomListing';
 import DynamicGrid from './components/grid/DynamicGrid';
+import ResponseDesign from './components/grid/ResponseDesign';
 
 export default function App() {
   return (
-    <View>
+    <>
       {/* <User/> */}
       {/* <InputForm/> */}
 
@@ -18,9 +19,9 @@ export default function App() {
 
 
       {/* grid */}
-      <DynamicGrid/>
-
-    </View>
+      {/* <DynamicGrid/> */}
+      <ResponseDesign/>
+    </>
   );
 }
 
