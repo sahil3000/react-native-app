@@ -6,6 +6,8 @@ import UsingFlatList from './components/listing/UsingFlatList';
 import CustomListing from './components/listing/CustomListing';
 import DynamicGrid from './components/grid/DynamicGrid';
 import ResponseDesign from './components/grid/ResponseDesign';
+import TouchableHighlight from './components/Buttons/TouchableHighlight';
+import CustomRadioButton from './components/Buttons/CustomRadioButton';
 
 export default function App() {
   return (
@@ -20,7 +22,11 @@ export default function App() {
 
       {/* grid */}
       {/* <DynamicGrid/> */}
-      <ResponseDesign/>
+      {/* <ResponseDesign/> */}
+
+      {/* button */}
+      {/* <TouchableHighlight/> */}
+      <CustomRadioButton/>
     </>
   );
 }
