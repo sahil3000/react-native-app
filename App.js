@@ -8,6 +8,7 @@ import DynamicGrid from './components/grid/DynamicGrid';
 import ResponseDesign from './components/grid/ResponseDesign';
 import TouchableHighlight from './components/Buttons/TouchableHighlight';
 import CustomRadioButton from './components/Buttons/CustomRadioButton';
+import ActivtyInticatorExample from './components/activityInticator/ActivtyInticatorExample';
 
 export default function App() {
   return (
@@ -26,7 +27,10 @@ export default function App() {
 
       {/* button */}
       {/* <TouchableHighlight/> */}
-      <CustomRadioButton/>
+      {/* <CustomRadioButton/> */}
+
+      {/* loader */}
+      <ActivtyInticatorExample/>
     </>
   );
 }
