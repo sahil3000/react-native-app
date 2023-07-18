@@ -9,6 +9,9 @@ import ResponseDesign from './components/grid/ResponseDesign';
 import TouchableHighlight from './components/Buttons/TouchableHighlight';
 import CustomRadioButton from './components/Buttons/CustomRadioButton';
 import ActivtyInticatorExample from './components/activityInticator/ActivtyInticatorExample';
+import ModalComponent from './components/modal/ModalComponent';
+import StatusBarComponent from './components/statusBar/StatusBarComponent';
+import PressableComponent from './components/Buttons/PressableComponent';
 
 export default function App() {
   return (
@@ -28,9 +31,17 @@ export default function App() {
       {/* button */}
       {/* <TouchableHighlight/> */}
       {/* <CustomRadioButton/> */}
+      <PressableComponent/>
 
       {/* loader */}
-      <ActivtyInticatorExample/>
+      {/* <ActivtyInticatorExample/> */}
+
+      {/* modal */}
+      {/* <ModalComponent/> */}
+
+      {/* status bar */}
+      {/* <StatusBarComponent/> */}
+
     </>
   );
 }
