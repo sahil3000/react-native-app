@@ -12,6 +12,7 @@ import ActivtyInticatorExample from './components/activityInticator/ActivtyIntic
 import ModalComponent from './components/modal/ModalComponent';
 import StatusBarComponent from './components/statusBar/StatusBarComponent';
 import PressableComponent from './components/Buttons/PressableComponent';
+import CustomModal from './components/modal/CustomModal';
 
 export default function App() {
   return (
@@ -31,13 +32,14 @@ export default function App() {
       {/* button */}
       {/* <TouchableHighlight/> */}
       {/* <CustomRadioButton/> */}
-      <PressableComponent/>
+      {/* <PressableComponent/> */}
 
       {/* loader */}
       {/* <ActivtyInticatorExample/> */}
 
       {/* modal */}
       {/* <ModalComponent/> */}
+      <CustomModal/>
 
       {/* status bar */}
       {/* <StatusBarComponent/> */}
